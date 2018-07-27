@@ -1,6 +1,5 @@
 A [Giter8][g8] template for spring Spring Boot!
 
-> Spring Boot + sbt = :heart:
 
 ```
 sbt new chgrivas/spring-boot.g8
