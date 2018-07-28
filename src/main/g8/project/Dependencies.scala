@@ -5,9 +5,9 @@ object Dependencies {
   lazy val springBootVersion = "2.0.0.RELEASE"
 
   // Libraries
-  val springBootStarterJersey    = "org.springframework.boot" % "spring-boot-starter-jersey" % springBootVersion
+  val springBootStarterWeb    = "org.springframework.boot" % "spring-boot-starter-web" % springBootVersion
 
   // Projects
   val springBootDependencies =
-    Seq(springBootStarterJersey)
+    Seq(springBootStarterWeb)
 }
