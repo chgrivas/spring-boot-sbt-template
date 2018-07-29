@@ -11,5 +11,5 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= springBootDependencies,
     name := "spring-boot",
     scriptClasspath := Seq("*"),
-    mainClass in Compile := Some("com.$organization;format="package"$.$name$.Main")
+    mainClass in Compile := Some("com.$organization;format="package"$.$name$.Application")
   )
